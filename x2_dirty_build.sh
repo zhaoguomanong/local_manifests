@@ -32,8 +32,8 @@ source build/envsetup.sh
 
 # fire up the building process and also log stdout
 # and stderrout
-breakfast lineage_max_plus-userdebug 2>&1 | tee breakfast.log && \
-brunch lineage_max_plus-userdebug 2>&1 | tee make.log
+breakfast lineage_x2-userdebug 2>&1 | tee x2_breakfast.log && \
+brunch lineage_x2-userdebug 2>&1 | tee x2_make.log
 
 #make sure jack-server is stopped in TMP before removal
 prebuilts/sdk/tools/jack-admin kill-server
