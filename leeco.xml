@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<manifest>      
-        <!-- LineageOS / LineageOsMaxPlus / device -->
-        <project name="LineageOsMaxPlus/android_device_leeco_msm8996-common" path="device/leeco/msm8996-common" remote="github" revision="lineage-17.1"/>
-        <project name="LineageOsMaxPlus/android_device_leeco_max_plus" path="device/leeco/max_plus" remote="github" revision="lineage-17.1"/>
-        <project name="LineageOsMaxPlus/android_kernel_leeco_msm8996" path="kernel/leeco/msm8996" remote="github" revision="lineage-17.1"/>
+<manifest>
+  <!-- device trees -->
+  <project name="LineageOsMaxPlus/android_device_leeco_msm8996-common" path="device/leeco/msm8996-common" remote="github" revision="lineage-17.1"/>
+  <project name="LineageOsMaxPlus/android_device_leeco_max_plus" path="device/leeco/max_plus" remote="github" revision="lineage-17.1"/>
+  <project name="LineageOsMaxPlus/android_device_leeco_zl1" path="device/leeco/zl1" remote="github" revision="lineage-17.1"/>
 
-        <!-- TheMuppets / LineageOsMaxPlus / vendor -->
-        <project name="LineageOsMaxPlus/proprietary_vendor_leeco" path="vendor/leeco" remote="github" revision="lineage-17.1"/>
+  <!-- kernel -->
+  <project name="LineageOsMaxPlus/android_kernel_leeco_msm8996" path="kernel/leeco/msm8996" remote="github" revision="lineage-17.1"/>
+
+  <!-- vendor -->
+  <project name="LineageOsMaxPlus/proprietary_vendor_leeco" path="vendor/leeco" remote="github" revision="lineage-17.1"/>
 
 </manifest>
-
