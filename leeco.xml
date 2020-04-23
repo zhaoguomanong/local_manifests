@@ -2,7 +2,7 @@
 <manifest>
   <!-- device trees -->
   <project name="LineageOsMaxPlus/android_device_leeco_msm8996-common" path="device/leeco/msm8996-common" remote="github" revision="lineage-17.1"/>
-  <project name="LineageOsMaxPlus/android_device_leeco_max_plus" path="device/leeco/max_plus" remote="github" revision="lineage-17.1"/>
+  <project name="LineageOsMaxPlus/android_device_leeco_max_plus" path="device/leeco/x2" remote="github" revision="lineage-17.1"/>
   <project name="LineageOsMaxPlus/android_device_leeco_zl1" path="device/leeco/zl1" remote="github" revision="lineage-17.1"/>
 
   <!-- kernel -->
