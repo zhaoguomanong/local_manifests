@@ -20,5 +20,13 @@
   <!-- vendor -->
   <project name="tImIbreakdown/proprietary_vendor_leeco" path="vendor/leeco_xxxxx" remote="github" revision="lineage-17.1"/>
 
+  <project name="tImIbreakdown/android_device_leeco_s2-test" path="device/leeco/s2_test" remote="github" revision="ten-rebase"/>
+  <!-- kernel -->
+  <project name="tImIbreakdown/android_kernel_leeco_msm8976-test" path="kernel/leeco/msm8976_test" remote="github" revision="q-10.x"/>
+  <!-- vendor -->
+  <project name="tImIbreakdown/android_vendor_leeco_s2-test" path="vendor/leeco_xxxxx_test" remote="github" revision="ten-rebase"/>
+
+
+
 
 </manifest>
