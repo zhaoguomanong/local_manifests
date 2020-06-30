@@ -13,20 +13,20 @@ Starting from zero:
     cd ~/android/lineage
     repo init -u git://github.com/LineageOS/android.git -b lineage-17.1
     mkdir -p .repo/local_manifests
-    curl https://raw.githubusercontent.com/LineageOsMaxPlus/local_manifests/lineage-17.1/leeco_official.xml > .repo/local_manifests/leeco_official.xml
+    curl https://raw.githubusercontent.com/zhaoguomanong/local_manifests/lineage-17.1/leeco_official.xml > .repo/local_manifests/leeco_official.xml
     repo sync
 
 If you've already synced Lineage-Sources:
 ----------
     mkdir -p .repo/local_manifests
-    curl https://raw.githubusercontent.com/LineageOsMaxPlus/local_manifests/lineage-17.1/leeco_official.xml > .repo/local_manifests/leeco_official.xml
+    curl https://raw.githubusercontent.com/zhaoguomanong/local_manifests/lineage-17.1/leeco_official.xml > .repo/local_manifests/leeco_official.xml
     repo sync
 
 Building
 ----------
     cd ~/android/lineage
-    curl https://raw.githubusercontent.com/zhaoguomanong/local_manifests/lineage-17.1/x2_clean_build.sh > x2_clean_build.sh
-    curl https://raw.githubusercontent.com/zhaoguomanong/local_manifests/lineage-17.1/x2_dirty_build.sh > x2_dirty_build.sh
+    curl https://raw.githubusercontent.com/zhaoguomanong/local_manifests/lineage-17.1/tools/x2_clean_build.sh > x2_clean_build.sh
+    curl https://raw.githubusercontent.com/zhaoguomanong/local_manifests/lineage-17.1/tools/x2_dirty_build.sh > x2_dirty_build.sh
     ./x2_clean_build.sh // for x2 clean builds
     ./x2_dirty_build.sh // for x2 dirty builds
 
