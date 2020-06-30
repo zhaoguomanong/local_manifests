@@ -1,0 +1,7 @@
+this xml is only used for local git mirror:
+
+examples:
+mkdir -p /home/zhaoguomanong/mirror/lineageOS && cd /home/zhaoguomanong/mirror/lineageOS
+repo init -u https://github.com/LineageOS/android.git -b lineage-17.1 --mirror
+repo sync
+git daemon --verbose --export-all --base-path=/home/zhaoguomanong/mirror/lineageOS /home/zhaoguomanong/mirror/lineageOS

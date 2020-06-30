@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- device trees -->
+  <project name="zhaoguomanong/android_device_leeco_msm8996-common" path="device/leeco/msm8996-common" remote="github" revision="lineage-17.1"/>
+  <project name="zhaoguomanong/android_device_leeco_x2" path="device/leeco/x2" remote="github" revision="lineage-17.1"/>
+  <project name="zhaoguomanong/android_device_leeco_zl1" path="device/leeco/zl1" remote="github" revision="lineage-17.1"/>
+
+  <!-- kernel -->
+  <project name="zhaoguomanong/android_kernel_leeco_msm8996" path="kernel/leeco/msm8996" remote="github" revision="lineage-17.1"/>
+
+  <!-- vendor -->
+  <project name="zhaoguomanong/proprietary_vendor_leeco" path="vendor/leeco" remote="github" revision="lineage-17.1"/>
+
+</manifest>
