@@ -1,0 +1,5 @@
+usage:
+
+./stoBuilding.sh x2
+replace the s2/x2 with the root folder name of your building source code
+after this command executed the current build process will be killed
