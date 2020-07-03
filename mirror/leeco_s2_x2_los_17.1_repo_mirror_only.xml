@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- device trees -->
+  <!-- x2 official repos -->
   <project name="LineageOS/android_device_leeco_msm8996-common" path="device/leeco/msm8996-common" remote="github" revision="lineage-17.1"/>
   <project name="LineageOS/android_device_leeco_x2" path="device/leeco/x2" remote="github" revision="lineage-17.1"/>
   <project name="LineageOS/android_device_leeco_zl1" path="device/leeco/zl1" remote="github" revision="lineage-17.1"/>
@@ -11,32 +11,38 @@
   <!-- vendor -->
   <project name="TheMuppets/proprietary_vendor_leeco" path="vendor/leeco" remote="github" revision="lineage-17.1"/>
 
-
-  <!--add for s2 Q -->
-  <!-- device trees -->
-  <project name="tImIbreakdown/android_device_leeco_s2" path="device/leeco/s2" remote="github" revision="lineage-17.1"/>
-  <!-- kernel -->
-  <project name="tImIbreakdown/android_kernel_leeco_msm8976" path="kernel/leeco/msm8976" remote="github" revision="lineage-17.1"/>
-  <!-- vendor -->
-  <project name="tImIbreakdown/proprietary_vendor_leeco" path="vendor/leeco_xxxxx" remote="github" revision="lineage-17.1"/>
-
-  <!--x2 test repos-->
-
+  <!--x2 zhaoguomanong repos-->
 
   <project name="zhaoguomanong/android_device_leeco_msm8996-common" path="device/leeco/msm8996-common_2" remote="github" revision="lineage-17.1"/>
   <project name="zhaoguomanong/android_device_leeco_x2" path="device/leeco/x2_" remote="github" revision="lineage-17.1"/>
   <project name="zhaoguomanong/android_device_leeco_zl1" path="device/leeco/zl1_" remote="github" revision="lineage-17.1"/>
   <project name="zhaoguomanong/android_kernel_leeco_msm8996" path="kernel/leeco/msm8996_" remote="github" revision="lineage-17.1"/>
-  <project name="zhaoguomanong/proprietary_vendor_leeco" path="vendor/leeco_2" remote="github" revision="lineage-17.1"/>
+  <project name="zhaoguomanong/proprietary_vendor_leeco" path="vendor/leeco_" remote="github" revision="lineage-17.1"/>
+
+  <!--add for s2 Q -->
+  <!-- device trees -->
+  <project name="tImIbreakdown/android_device_leeco_s2" path="device/leeco/s2_1" remote="github" revision="lineage-17.1"/>
+  <!-- kernel -->
+  <project name="tImIbreakdown/android_kernel_leeco_msm8976" path="kernel/leeco/msm8976_1" remote="github" revision="lineage-17.1"/>
+  <!-- vendor -->
+  <project name="tImIbreakdown/proprietary_vendor_leeco" path="vendor/leeco_1" remote="github" revision="lineage-17.1"/>
+
 
   <!-- s2 Q debug-->
+  <!--based on zenx trees -->
   <!-- device trees -->
-  <project name="zhaoguomanong/android_device_leeco_s2" path="device/leeco/s2_4" remote="github" revision="lineage-17.1_s2_20200622"/>
+  <project name="zhaoguomanong/android_device_leeco_s2" path="device/leeco/s2_2" remote="github" revision="lineage-17.1_s2_20200622"/>
   <!-- kernel -->
-  <project name="zhaoguomanong/android_kernel_leeco_msm8976" path="kernel/leeco/msm8976_4" remote="github" revision="lineage-17.1_s2_20200622"/>
+  <project name="zhaoguomanong/android_kernel_leeco_msm8976" path="kernel/leeco/msm8976_2" remote="github" revision="lineage-17.1_s2_20200622"/>
   <!-- vendor -->
-  <project name="zhaoguomanong/proprietary_vendor_leeco" path="vendor/leeco_4" remote="github" revision="lineage-17.1_s2_20200622"/>
+  <project name="zhaoguomanong/proprietary_vendor_leeco" path="vendor/leeco_2" remote="github" revision="lineage-17.1_s2_20200622"/>
 
-
+  <!--based on tImIbreakdown trees -->
+  <!-- device trees -->
+  <project name="zhaoguomanong/android_device_leeco_s2" path="device/leeco/s2_3" remote="github" revision="lineage-17.1_s2_20200624"/>
+  <!-- kernel -->
+  <project name="zhaoguomanong/android_kernel_leeco_msm8976" path="kernel/leeco/msm8976_3" remote="github" revision="lineage-17.1_s2_20200624"/>
+  <!-- vendor -->
+  <project name="zhaoguomanong/proprietary_vendor_leeco" path="vendor/leeco_3" remote="github" revision="lineage-17.1_s2_20200624"/>
 
 </manifest>
