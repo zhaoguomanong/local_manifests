@@ -25,4 +25,3 @@ source build/envsetup.sh
 # and stderrout
 breakfast lineage_x2-userdebug 2>&1 | tee breakfast.log && \
 brunch lineage_x2-userdebug 2>&1 | tee make.log
-

@@ -25,5 +25,3 @@ make -j9 ARCH=arm clean
 # and stderrout
 breakfast lineage_s2-userdebug 2>&1 | tee breakfast.log && \
 brunch lineage_s2-userdebug 2>&1 | tee make.log
-
-

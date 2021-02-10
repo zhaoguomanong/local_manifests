@@ -23,5 +23,8 @@ source build/envsetup.sh
 
 # fire up the building process and also log stdout
 # and stderrout
-breakfast lineage_s2-userdebug 2>&1 | tee breakfast.log && \
-brunch lineage_s2-userdebug 2>&1 | tee make.log
+breakfast lineage_x2-userdebug 2>&1 | tee breakfast_x2.log && \
+brunch lineage_x2-userdebug 2>&1 | tee make_x2.log
+
+breakfast lineage_s2-userdebug 2>&1 | tee breakfast_s2.log && \
+brunch lineage_s2-userdebug 2>&1 | tee make_s2.log
