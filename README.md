@@ -31,6 +31,7 @@ Building
     curl https://raw.githubusercontent.com/zhaoguomanong/local_manifests/lineage-17.1/tools/s2_dirty_build.sh > s2_dirty_build.sh
     curl https://raw.githubusercontent.com/zhaoguomanong/local_manifests/lineage-17.1/tools/x2s2_clean_build.sh > x2s2_clean_build.sh
     curl https://raw.githubusercontent.com/zhaoguomanong/local_manifests/lineage-17.1/tools/x2s2_dirty_build.sh > x2s2_dirty_build.sh
+    chmod 777 *.sh
     ./x2_clean_build.sh // for x2 clean builds
     ./x2_dirty_build.sh // for x2 dirty builds
     ./s2_clean_build.sh // for s2 clean builds
