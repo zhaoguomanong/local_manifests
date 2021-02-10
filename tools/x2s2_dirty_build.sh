@@ -24,8 +24,8 @@ source build/envsetup.sh
 
 # fire up the building process and also log stdout
 # and stderrout
-lunch aosp_x2-userdebug
+lunch aosp_x2-userdebug && \
 mka bacon -j40 2>&1 | tee make_x2.log
 
-lunch aosp_s2-userdebug
+lunch aosp_s2-userdebug && \
 mka bacon -j40 2>&1 | tee make_s2.log

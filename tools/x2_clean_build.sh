@@ -24,5 +24,5 @@ rm -rf out
 
 # fire up the building process and also log stdout
 # and stderrout
-lunch aosp_x2-userdebug
+lunch aosp_x2-userdebug && \
 mka bacon -j40 2>&1 | tee make.log
