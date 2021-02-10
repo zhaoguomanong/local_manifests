@@ -30,13 +30,12 @@ Building
     curl https://raw.githubusercontent.com/zhaoguomanong/local_manifests/lineage-17.1/tools/s2_clean_build.sh > s2_clean_build.sh
     curl https://raw.githubusercontent.com/zhaoguomanong/local_manifests/lineage-17.1/tools/s2_dirty_build.sh > s2_dirty_build.sh
     curl https://raw.githubusercontent.com/zhaoguomanong/local_manifests/lineage-17.1/tools/x2s2_clean_build.sh > x2s2_clean_build.sh
-    curl https://raw.githubusercontent.com/zhaoguomanong/local_manifests/lineage-17.1/tools/x2s2_dirty_build.sh > x2s2_dirty_build.sh
+    curl https://raw.githubusercontent.com/zhaoguomanong/local_manifests/lineage-17.1/tools/stopBuilding.sh > stopBuilding.sh
     chmod 777 *.sh
     ./x2_clean_build.sh // for x2 clean builds
     ./x2_dirty_build.sh // for x2 dirty builds
     ./s2_clean_build.sh // for s2 clean builds
     ./s2_dirty_build.sh // for s2 dirty builds
     ./x2s2_clean_build.sh // for x2,s2 clean builds(build both x2,s2 targets)
-    ./x2s2_dirty_build.sh // for x2,s2 dirty builds(build both x2,s2 targets)
 
 I made these modified scripts for convenience plus logs terminal output to files for easy scrolling later in your favorite text editor.

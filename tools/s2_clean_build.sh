@@ -19,10 +19,10 @@ source build/envsetup.sh
 
 # clean the out dir; comment out, if you want to do
 # a dirty build
-make -j8 clean
+make -j$(nproc --all) clean
 rm -rf out
 
 # fire up the building process and also log stdout
 # and stderrout
-breakfast lineage_s2-userdebug 2>&1 | tee breakfast.log && \
-brunch lineage_s2-userdebug 2>&1 | tee make.log
+breakfast lineage_s2-userdebug 2>&1 | tee breakfast_s2.log && \
+brunch lineage_s2-userdebug 2>&1 | tee make_s2.log
