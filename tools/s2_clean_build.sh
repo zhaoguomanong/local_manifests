@@ -19,10 +19,10 @@ source build/envsetup.sh
 
 # clean the out dir; comment out, if you want to do
 # a dirty build
-make -j8 clean
+make -j$(nproc --all) clean
 rm -rf out
 
 # fire up the building process and also log stdout
 # and stderrout
 lunch aosp_s2-userdebug && \
-mka bacon -j40 2>&1 | tee make.log
+mka bacon -j$(nproc --all) 2>&1 | tee make_s2.log
