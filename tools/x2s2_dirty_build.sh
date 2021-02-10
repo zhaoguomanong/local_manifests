@@ -26,7 +26,10 @@ source build/envsetup.sh
 #breakfast lineage_x2-userdebug 2>&1 | tee breakfast.log && \
 #brunch lineage_x2-userdebug 2>&1 | tee make.log
 
+lunch aosp_x2-userdebug
+mka bacon -j40 2>&1 | tee make_x2.log
+
 lunch aosp_s2-userdebug
-mka bacon -j40 2>&1 | tee make.log
+mka bacon -j40 2>&1 | tee make_s2.log
 
 
