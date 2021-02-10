@@ -24,7 +24,7 @@ If you've already synced PixelExperience-Sources:
 
 Building
 ----------
-    cd ~/android/pe
+    cd ~/android/pixelexperience
     curl https://raw.githubusercontent.com/zhaoguomanong/local_manifests/pe_ten_plus/tools/x2_clean_build.sh > x2_clean_build.sh
     curl https://raw.githubusercontent.com/zhaoguomanong/local_manifests/pe_ten_plus/tools/x2_dirty_build.sh > x2_dirty_build.sh
     curl https://raw.githubusercontent.com/zhaoguomanong/local_manifests/pe_ten_plus/tools/s2_clean_build.sh > s2_clean_build.sh
