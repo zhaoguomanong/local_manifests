@@ -19,7 +19,8 @@ source build/envsetup.sh
 
 # clean the out dir; comment out, if you want to do
 # a dirty build
-make -j9 ARCH=arm clean
+make -j8 clean
+rm -rf out
 
 # fire up the building process and also log stdout
 # and stderrout
